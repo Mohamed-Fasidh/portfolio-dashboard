@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+body { @apply bg-gray-50 text-gray-900 dark:bg-neutral-950 dark:text-neutral-100; }
+
+.table-cell-num { @apply text-right tabular-nums; }
+.gain { @apply text-emerald-600 dark:text-emerald-400; }
+.loss { @apply text-rose-600 dark:text-rose-400; }
+.card { @apply rounded-2xl shadow-sm border border-gray-200 dark:border-neutral-800 bg-white dark:bg-neutral-900; }

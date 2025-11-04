@@ -1,9 +1,8 @@
 [build]
 command = "npm run build"
-publish = ".next"
 
-[build.environment]
-NODE_VERSION = "18.20.0"   # or any 18.x supported by Netlify
+
+  # or any 18.x supported by Netlify
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"

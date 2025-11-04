@@ -1,5 +1,6 @@
 [build]
 command = "npm run build"
+publish = ".next"
 
 
   # or any 18.x supported by Netlify
